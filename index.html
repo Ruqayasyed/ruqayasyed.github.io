@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Ruqaya’s Portfolio</title>
 <style>
-  /* Reset and base */
+  
   * {
     margin: 0; padding: 0; box-sizing: border-box;
   }
@@ -20,7 +20,7 @@
     color: inherit;
   }
 
-  /* Navbar */
+ 
   nav {
     position: sticky;
     top: 0;
@@ -51,7 +51,7 @@
     color: #1e90ff;
   }
 
-  /* Sections */
+  
   section {
     padding: 5rem 2rem 3rem;
     max-width: 900px;
@@ -65,7 +65,7 @@
     margin-bottom: 1.5rem;
   }
 
-  /* About Section */
+  
   #about {
     background: #fff;
     border-radius: 8px;
@@ -74,7 +74,7 @@
     margin-bottom: 3rem;
   }
 
-  /* Projects Section */
+  
   #projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -111,7 +111,7 @@
     border-color: #1e90ff;
   }
 
-  /* Smooth fade-in */
+
   .fade-in {
     opacity: 0;
     transform: translateY(20px);
@@ -122,7 +122,7 @@
     transform: none;
   }
 
-  /* Footer */
+  
   footer {
     text-align: center;
     padding: 2rem 1rem;
@@ -130,7 +130,7 @@
     font-size: 0.9rem;
   }
 
-  /* Responsive nav */
+  
   @media (max-width: 600px) {
     nav ul {
       gap: 1rem;
@@ -155,13 +155,13 @@
 
 <section id="home" class="fade-in">
   <h1>Welcome to My Portfolio</h1>
-  <p>Hi, I’m Ruqaya. I’m an aspiring developer and a-level student ready to build cool stuff.</p>
+  <p>Hi, I’m Ruqaya. I’m an a-level student who is very interested in technology and coding.</p>
 </section>
 
 <section id="about" class="fade-in">
   <h2>About Me</h2>
   <p>I’m passionate about coding, design, and learning new tech every day. I love turning ideas into reality through clean, thoughtful code.</p>
-  <p>Currently, I’m working on improving my skills in web development and looking forward to tackling real-world projects.</p>
+  <p>Currently, I’m working on improving my skills in web development and software engineering and looking forward to tackling real-world projects while also building my portfolio for University.</p>
 </section>
 
 <section id="projects" class="fade-in">
@@ -186,7 +186,7 @@
 </footer>
 
 <script>
-  // Smooth scroll for nav links
+  
   document.querySelectorAll('a.nav-link').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
@@ -195,7 +195,7 @@
     });
   });
 
-  // Fade in elements on scroll
+    
   const faders = document.querySelectorAll('.fade-in');
   const appearOptions = {
     threshold: 0,
